@@ -7,8 +7,53 @@
 * set up what the key and value are for a hashmap 
 
 ## 3 General techniques
-* (Python3) HashMap: dict, collection.Counter()
-* (Python3) HashSet: [Set](https://docs.python.org/3/tutorial/datastructures.html#sets)
+* HashSet: [Set](https://docs.python.org/3/tutorial/datastructures.html#sets)
+```python3
+>>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+>>> print(basket)                      # show that duplicates have been removed
+{'orange', 'banana', 'pear', 'apple'}
+>>> 'orange' in basket                 # fast membership testing
+True
+>>> 'crabgrass' in basket
+False
+
+>>> # Demonstrate set operations on unique letters from two words
+...
+>>> a = set('abracadabra')
+>>> b = set('alacazam')
+>>> a                                  # unique letters in a
+{'a', 'r', 'b', 'c', 'd'}
+>>> a - b                              # letters in a but not in b
+{'r', 'd', 'b'}
+>>> a | b                              # letters in a or b or both
+{'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}
+>>> a & b                              # letters in both a and b
+{'a', 'c'}
+>>> a ^ b                              # letters in a or b but not both
+{'r', 'd', 'b', 'm', 'z', 'l'}
+```
+* HashMap: [dict](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), collection.Counter()
+```python3
+>>> tel = {'jack': 4098, 'sape': 4139}
+>>> tel['guido'] = 4127
+>>> tel
+{'jack': 4098, 'sape': 4139, 'guido': 4127}
+>>> tel['jack']
+4098
+>>> del tel['sape']
+>>> tel['irv'] = 4127
+>>> tel
+{'jack': 4098, 'guido': 4127, 'irv': 4127}
+>>> list(tel)
+['jack', 'guido', 'irv']
+>>> sorted(tel)
+['guido', 'irv', 'jack']
+>>> 'guido' in tel
+True
+>>> 'jack' not in tel
+False
+```
+
 ## 4 problem link and solutions
 Problems | Solutions | Difficulty
 -------- | --------- | ----------
