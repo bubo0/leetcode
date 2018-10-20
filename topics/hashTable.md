@@ -54,7 +54,7 @@ True
 False
 ```
 
-## 4 problem link and solutions
+## 4 Problems and solutions
 Problems | Solutions | Difficulty
 -------- | --------- | ----------
 [560 Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | [Sol](../algorithms/560.subarraySumEqualsK.md) | M
