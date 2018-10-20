@@ -1,4 +1,4 @@
-# leetcode
+# LeetCode
 
 Expected structure:
 
