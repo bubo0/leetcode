@@ -4,7 +4,7 @@
 ```python3
 (import collections)
 ```
-A counter is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
+A counter is a container that stores elements as **dictionary** keys, and their counts are stored as dictionary values.
 [https://www.hackerrank.com/challenges/collections-counter/problem]
 
 Sample: 
