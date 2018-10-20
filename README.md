@@ -2,14 +2,13 @@
 
 Expected structure:
 
-show problems in a tagged way
-in which tag, there is a general notes about:
+Classify the problem with their tags
 
-1 the signs (hints) of this kind of method
+In which tag, there is a general notes about:
 
-2 what is difficult or easily overlooked in this kind of problem
-
-3 the common ways and insights of solving this kind of problem
+* the signs (hints) of this kind of method
+* what is difficult or easily overlooked in this kind of problem
+* the common ways and insights of solving this kind of problem
 
 Further features:
 
