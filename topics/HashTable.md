@@ -57,6 +57,7 @@ False
 ## 4 Problems and solutions
 Problems | Solutions | Difficulty
 -------- | --------- | ----------
-[1 Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python3](../algorithms/001.twoSum.md) | E
+[1. Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python3](../algorithms/001.twoSum.md) | E
 [560 Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | [Python3](../algorithms/560.subarraySumEqualsK.md) | M
-[...]() | [...]() | ...
+[525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/) | [Python3](525.ContiguousArray.md) | M
+[.]() | [.]() | .
