@@ -17,6 +17,8 @@ True
 >>> 'crabgrass' in basket
 False
 
+>>> basket.add('melon')                # add elemnets:
+
 >>> # Demonstrate set operations on unique letters from two words
 ...
 >>> a = set('abracadabra')
