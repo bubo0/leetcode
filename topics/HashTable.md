@@ -17,8 +17,8 @@ True
 >>> 'crabgrass' in basket
 False
 
->>> basket.add('melon')                # add elemnets:
-
+>>> basket.add('melon')                # add elemnets (does not return value)
+>>> basket.remove('apple')             # remove elements (does not return value)
 >>> # Demonstrate set operations on unique letters from two words
 ...
 >>> a = set('abracadabra')
