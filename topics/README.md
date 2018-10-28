@@ -21,3 +21,4 @@
 * Recursion
 
 TODO
+write the signal of each types of problems
