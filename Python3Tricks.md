@@ -1,4 +1,4 @@
-# Python3 Points
+# Python3 Tricks
 
 * ## collections.Counter()
 ```python3
