@@ -5,7 +5,7 @@
 1. String
 1. Math
 1. Tree
-1. [Hash Table](Hashtable.md)
+1. [Hash Table](hash-table.md)
 1. DFS  
 ### **less than 60 problems:**
 1. Binary Search
