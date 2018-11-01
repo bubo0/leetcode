@@ -19,4 +19,4 @@
 Problems | Solutions | Difficulty
 -------- | --------- | ----------
 [001. Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python3](../algorithms/001.twoSum.md) | E
-[004. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | [Python3](../algorithms/004.MedianofTwoSortedArrays.md) | E
+[004. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | [Python3](../algorithms/004.MedianOfTwoSortedArrays.md) | E
