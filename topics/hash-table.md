@@ -61,5 +61,5 @@ Problems | Solutions | Difficulty
 -------- | --------- | ----------
 [001. Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python3](../algorithms/001-two-sum.md) | E
 [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) | [Python3](../algorithms/560-subarray-sum-equals-k.md) | M
-[525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/) | [Python3](525-contiguous-array.md) | M
+[525. Contiguous Array](https://leetcode.com/problems/contiguous-array/description/) | [Python3](../algorithms/525-contiguous-array.md) | M
 [000.]() | [Python3]() | .
