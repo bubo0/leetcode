@@ -1,5 +1,7 @@
 ## [Description](https://leetcode.com/problems/contiguous-array/description/)
-## Topic: [HashTable](../topics/HashTable.md)
+## Topic: 
+[HashTable](../topics/HashTable.md)
+
 ## Solution 
 Python3
 ```python3
