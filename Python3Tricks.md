@@ -90,3 +90,8 @@ while not q.empty():
     next_job = q.get()
     print('Processing job', next_job.description)
 ```
+* ## set.discard(x)
+
+This operation also removes element  from the set. 
+If element  does not exist, it **does not** raise a KeyError.
+The .discard(x) operation returns None.
