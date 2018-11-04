@@ -59,7 +59,10 @@ for i in range(3):
 
 while not q.empty():
     print(q.get())
-
+# output:
+# 2
+# 1
+# 0
 ```
 PriorityQueue  
 (The version in the Queue module is implemented using the heapq module, so they have equal efficiency for the underlying heap operations.)
