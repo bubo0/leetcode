@@ -95,3 +95,23 @@ while not q.empty():
 This operation also removes element  from the set. 
 If element  does not exist, it **does not** raise a KeyError.
 The .discard(x) operation returns None.
+
+* ## Using Lists as Stacks
+[ref](https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-stacks)
+```python3
+>>> stack = [3, 4, 5]
+>>> stack.append(6)
+>>> stack.append(7)
+>>> stack
+[3, 4, 5, 6, 7]
+>>> stack.pop()
+7
+>>> stack
+[3, 4, 5, 6]
+>>> stack.pop()
+6
+>>> stack.pop()
+5
+>>> stack
+[3, 4]
+```
