@@ -115,3 +115,18 @@ The .discard(x) operation returns None.
 >>> stack
 [3, 4]
 ```
+* ## remove punctuations from a string
+```python3
+translator = str.maketrans('', '', string.punctuation)
+res = original_string.translate(translator)
+```
+* ## remove spaces from a string
+```python3
+s.replace(' ','')
+```
+
+* ## capital letters to lower-case letters:
+```python3
+s.lower()
+s.upper()
+```
