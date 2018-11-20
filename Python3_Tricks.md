@@ -117,7 +117,7 @@ The .discard(x) operation returns None.
 ```
 * ## remove punctuations from a string
 ```python3
-translator = str.maketrans('', '', string.punctuation)
+translator = str.maketrans('', '', string.punctuation) # "str" is a type in Python3. Don't change it
 res = original_string.translate(translator)
 ```
 * ## remove spaces from a string
@@ -129,4 +129,6 @@ s.replace(' ','')
 ```python3
 s.lower()
 s.upper()
+s.islower() # return whether letters in s are all lower-case
+s.isupper() # return whether letters in s are all upper-case
 ```
