@@ -10,7 +10,7 @@ In which tag, there is a general notes about:
 * what is difficult or easily overlooked in this kind of problem
 * the common ways and insights of solving this kind of problem
 
-Further features:
+TODO:
 
 * difficulty
 * ID of each problem
